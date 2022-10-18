@@ -29,7 +29,7 @@ jobs:
       - name: Compile LaTeX document
         uses: xu-cheng/latex-action@v2
         with:
-          root_file: latex/math_template.tex
+          root_file: math_template.tex
           working_directory: latex
 
       - name: Upload LaTeX pdf
