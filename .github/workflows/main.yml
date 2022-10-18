@@ -44,4 +44,4 @@ jobs:
       - name: Upload LaTeX pdf
         uses: actions/upload-artifact@v3
         with:
-          path: latex/math_template.tex
+          path: latex/math_template.pdf
